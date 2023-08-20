@@ -4,15 +4,15 @@ function Cards(props) {
     return (
         <div className="card">
           <div className="img-container">
-            <img alt={props.name} src={props.image} />
+            <img alt={dataBlob.name} src={dataBlob.image} />
           </div>
           <div className="content">
             <ul>
               <li>
-                 {props.name}
+                 {dataBlob.name}
               </li>
               <li>
-                 {props.occupation}
+                 {dataBlob.description}
               </li>
             </ul>
           </div>
