@@ -4,21 +4,25 @@ import {Link} from "react-router-dom";
 
 function Navi() {
     return (
+        <header>
+        <h1>Rayne Burk</h1>
         <div className="Navi">
-        <h1>Portfolio Pal</h1>
         <ul>
-            <Link to={"/about"}></Link>
-        </ul>
-        <ul>
-            <Link to={"/portfolio"}></Link>
-        </ul>
-        <ul>
-            <Link to={"/resume"}></Link>
-        </ul>
-        <ul>
-            <Link to={"/contact"}></Link>
+            <li>
+                <Link to={"/about"}>About Me</Link>
+            </li>
+            <li>
+                <Link to={"/portfolio"}>My Portfolio</Link>
+            </li>
+            <li>
+                <Link to={"/resume"}>My Resume</Link>
+            </li>
+            <li>
+                <Link to={"/contact"}>Contact Me</Link>
+            </li>
         </ul>
         </div>
+    </header>
     );
 }
 
