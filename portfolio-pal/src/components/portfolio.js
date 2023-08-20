@@ -5,7 +5,7 @@ function Portfolio() {
     return (
         <div>
             <Navi />
-            <h1>My Portfolio</h1>
+            <h1>Projects I'm proud of</h1>
         </div>
     );
 }
