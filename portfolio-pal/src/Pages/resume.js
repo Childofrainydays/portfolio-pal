@@ -1,5 +1,6 @@
 import React from "react";
 import Navi from "./navi";
+import {Link} from "react-router-dom";
 
 function Resume() {
     return (
@@ -21,6 +22,8 @@ function Resume() {
                 <li>Git</li>
                 <li>GitHub</li>
                 </ul>
+                <break></break>
+                <h3>See my <Link to="/portfolio">Portfolio</Link> for examples!</h3>
         </div>
     );
 }

@@ -5,7 +5,7 @@ function Contact() {
     return (
         <div>
             <Navi />
-            <h1>Contact Me</h1>
+            <h1>Contact Me - I'm pretty cool</h1>
             <form>
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" placeholder="Your name.." />

@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import Navi from "./components/navi";
-import About from "./components/about";
-import Portfolio from "./components/portfolio";
-import Resume from "./components/resume";
-import Contact from "./components/contact";
+import Navi from "./Pages/navi";
+import About from "./Pages/about";
+import Portfolio from "./Pages/portfolio";
+import Resume from "./Pages/resume";
+import Contact from "./Pages/contact";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
