@@ -1,23 +1,17 @@
- import React from "react";
- 
-function Cards(props) {
-    return (
-        <div className="card">
-          <div className="img-container">
-            <img alt={dataBlob.name} src={dataBlob.image} />
-          </div>
-          <div className="content">
-            <ul>
-              <li>
-                 {dataBlob.name}
-              </li>
-              <li>
-                 {dataBlob.description}
-              </li>
-            </ul>
-          </div>
-        </div>
-    );
-}
+import React from "react";
 
-export default Cards;
+
+
+export default function Cards({dataBlob}) {
+  return (
+    <div>
+        <div className="card">
+        <div className="img-container">
+        {dataBlob.map((data) => (
+        <h4>{data.ProjectName}</h4>
+      ))}
+      </div>
+    </div>
+    </div>
+  );
+}

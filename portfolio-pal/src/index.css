@@ -1,19 +1,104 @@
 
+
 body {
   margin: 0;
   font-family: 'Major Mono Display', monospace;
+  font-size: 1rem;
+  color: white;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  min-height: 100vh;
+  background-color: rgb(49, 49, 49);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+
+h1 {
+  font-size: 3rem;
+  margin: 0;
+  padding: 0;
+  margin: 20px;
+}
+
+.card {
+  background-color: rgb(85, 85, 85);
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  margin: 20px;
+  transition: 1s;
+  width: 100%;
+  text-align: center;
+  font-size: 2rem;
+  text-decoration: none;
+  margin-bottom: 50px;
+}
+
+.card .img-container {
+  height: 50%;
+  overflow: hidden;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+}
+
+
+
+li {
+  list-style: none;
+  margin: 10px;
+} 
+
+li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+  transition: 0.5s;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2.5rem;
+}
+
+a {
+  color: white;
+  font-size: 1.2rem;
+  transition: 0.5s;
+}
+
+p {
+  font-size: 1.2rem;
+  margin: 10px;
+  padding: 10x;
+}
+
+input {
+  font-size: 1.2rem;
+  margin: 10px;
+  padding: 10x;
+  border-radius: 10px;
+  width: 400px;
+  height: 50px;
+}
+
+textarea {
+  font-size: 1.2rem;
+  border-radius: 10px;
+  margin: 10px;
+  width: 400px;
+  height: 200px;
+}
 
 /* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }  */
 
-.link {
-  text-decoration: none;
-  color: #000;
-  transition: 1s;
-}

@@ -6,7 +6,7 @@ function Contact() {
         <div>
             <Navi />
             <h1>Contact Me - I'm pretty cool</h1>
-            <form>
+            <form className="contact-container">
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" placeholder="Your name.." />
                 <label for="email">Email:</label>
